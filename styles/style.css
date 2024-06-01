@@ -57,6 +57,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #d35722;
+}
+
 .header__address {
   margin: 0;
   color: #838383;
@@ -86,6 +90,10 @@
   color: #000000;
   text-decoration: none;
   font-weight: 500;
+}
+
+.nav__link:hover {
+  color: #d35722;
 }
 
 .events {
@@ -156,6 +164,10 @@
 .events__more {
   color: #e96e3a;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #d35722;
 }
 
 .events__cover {
