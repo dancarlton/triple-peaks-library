@@ -20,7 +20,7 @@
 
 .header__title {
   max-width: 601px;
-  margin-top: 128px;
+  margin: 128px 0 0 0;
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
@@ -29,7 +29,7 @@
 
 .header__description {
   max-width: 532px;
-  margin-top: 32px;
+  margin: 32px 0 0 0;
   font-size: 20px;
   line-height: 30px;
   color: #000000;
@@ -182,6 +182,14 @@
   max-width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin: 0;
+}
+
 .person {
   position: absolute;
   display: flex;
@@ -332,6 +340,7 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  gap: 40px;
 }
 
 .step {
@@ -460,4 +469,9 @@
 
 .footer__copyright {
   margin: 108px 0 0;
+}
+
+p.footer__copyright {
+  margin: 0;
+  padding: 0;
 }
