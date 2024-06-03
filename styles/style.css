@@ -2,7 +2,7 @@
   max-width: 1600px;
   min-width: 1300px;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -182,20 +182,13 @@
   max-width: 100%;
 }
 
-figure {
-  margin: 0;
-}
-
-figcaption {
-  margin: 0;
-}
-
 .person {
   position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  margin: 0;
 }
 
 .person_name_feynman {
@@ -469,9 +462,5 @@ figcaption {
 
 .footer__copyright {
   margin: 108px 0 0;
-}
-
-p.footer__copyright {
-  margin: 0;
   padding: 0;
 }
